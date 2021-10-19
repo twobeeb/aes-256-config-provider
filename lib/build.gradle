@@ -23,8 +23,12 @@ dependencies {
 
     implementation 'org.apache.kafka:kafka_2.13:2.8.0'
 }
+java {
+    sourceCompatibility = JavaVersion.toVersion('1.8')
+    targetCompatibility = JavaVersion.toVersion('1.8')
+}
 configurations {
-    jar.archiveName = rootProject.name + '-1.0.0.jar'
+    jar.archiveName = rootProject.name + '-0.1.1.jar'
 }
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
