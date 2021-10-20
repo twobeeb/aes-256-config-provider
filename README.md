@@ -12,8 +12,9 @@ Nice to have when using Kafka Connect in a multi-tenant environment.
     config.providers.aes256.class=com.michelin.kafka.AES256ConfigProvider
     config.providers.aes256.param.key=0000111122223333
     ````
-3. Provide an API to your users so that they can encode their passwords with your key
-4. Keep your key safe !
+3. Provide an API to your users so that they can encode their passwords with your key  
+    https://github.com/twobeeb/aes-256-vault-api 
+5. Keep your key safe !
 
 ## Connector config / User side
 
